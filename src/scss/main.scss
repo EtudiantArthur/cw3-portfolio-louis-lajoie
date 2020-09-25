@@ -36,4 +36,100 @@
 // UTILITIES
 // Utilitaires et classes auxiliaires avec possibilité de remplacer tout ce qui précède, par exemple masquer les éléments de la page
 
+h2{
+  margin: 0;
+}
+
+p{
+  margin: 0;
+}
+
+header{
+  display: flex;
+  margin: 27px 10px 0 10px;
+}
+
+header img{
+  width: 20%;
+  margin-right: 20px;
+}
+
+header{
+  color: var(--color-text-primary);
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul{
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+}
+
+li{
+  list-style: none;
+}
+
+.hero .wrapper{
+  background-color: var(--color-bg-secondary);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.hero h1, h3{
+  margin: 0;
+}
+
+.hero a{
+  padding: 12px 29px;
+  color: var(--color-text-secondary);
+  background: linear-gradient(180deg, #62BDFC 0%, #8490FF 100%);
+  margin: 15px 0 30px 0;
+}
+
+
+.creations .wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.creations .wrapper article{
+  width: 354px;
+  height: 209px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  padding: 10px;
+}
+
+.creations .wrapper article img{
+  color: #E53847;
+  width: 50px;
+  height: 50px;
+}
+
+footer{
+  background-color: var(--color-bg-tertiary);
+}
+
+footer p{
+  margin: 0;
+  padding: 20px;
+  color: var(--color-text-secondary);
+}
+
+
 
